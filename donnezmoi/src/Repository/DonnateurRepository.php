@@ -19,10 +19,10 @@ class DonnateurRepository extends ServiceEntityRepository
         parent::__construct($registry, Donnateur::class);
     }
 
-//    /**
-//     * @return Donnateur[] Returns an array of Donnateur objects
-//     */
-    /*
+   /**
+    * @return Donnateur[] Returns an array of Donnateur objects
+    */
+    
     public function findByExampleField($value)
     {
         return $this->createQueryBuilder('d')
@@ -34,9 +34,9 @@ class DonnateurRepository extends ServiceEntityRepository
             ->getResult()
         ;
     }
-    */
+    
 
-    /*
+    
     public function findOneBySomeField($value): ?Donnateur
     {
         return $this->createQueryBuilder('d')
@@ -46,5 +46,5 @@ class DonnateurRepository extends ServiceEntityRepository
             ->getOneOrNullResult()
         ;
     }
-    */
+    
 }
